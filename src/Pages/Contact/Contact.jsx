@@ -25,7 +25,8 @@ const Contact = () => {
               Full Name
             </span>
             <input
-              className="w-full bg-gray-200 border border-gray-300 text-gray-900  mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline dark:border-gray-700 dark:bg-gray-800"
+              className="w-full bg-gray-200 border border-gray-300 text-gray-900 dark:text-gray-300  mt-2 p-3 rounded-lg focus:outline-none 
+               focus:shadow-outline dark:border-gray-700 dark:bg-gray-800"
               type="text"
               placeholder=""
             />
@@ -35,7 +36,7 @@ const Contact = () => {
               Email
             </span>
             <input
-              className="w-full bg-gray-200 border border-gray-300  text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline dark:border-gray-700 dark:bg-gray-800"
+              className="w-full bg-gray-200 border border-gray-300  text-gray-900 dark:text-gray-300 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline dark:border-gray-700 dark:bg-gray-800"
               type="text"
             />
           </div>
@@ -43,10 +44,10 @@ const Contact = () => {
             <span className="uppercase text-sm text-gray-600 dark:text-gray-200 font-bold">
               Message
             </span>
-            <textarea className="w-full h-32 bg-gray-200 border border-gray-300  dark:border-gray-700 dark:bg-gray-800 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+            <textarea className="w-full h-32 bg-gray-200 border border-gray-300 dark:text-gray-300  dark:border-gray-700 dark:bg-gray-800 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
           </div>
           <div className="mt-8">
-            <button className="uppercase text-sm font-bold tracking-wide bg-blue-700 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+            <button className="uppercase text-sm font-bold tracking-wide bg-blue-700 hover:bg-blue-600 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
               Send Message
             </button>
           </div>
